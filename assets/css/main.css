@@ -19,93 +19,93 @@ header { /*formato detallado al header*/
 	height: 25rem; /*alto*/
 }
 header .col-12 h1 { /*formato detallado al título h1*/
-	font-size: 4rem;
-	padding-bottom: 2rem;
-	padding-top: 0;
-	color: #DF8A02;
+	font-size: 4rem; /*tamaño de fuente*/
+	padding-bottom: 2rem; /*relleno inferior*/
+	padding-top: 0; /*relleno superior*/
+	color: #DF8A02; /*color de fuente*/
 }
 header .col-12 h3 {/*formato detallado al título h3*/
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	font-size: 1.5rem;
-	color: #5B1504;
+	padding-top: 1rem;/*relleno superior*/
+	padding-bottom: 1rem;/*relleno inferior*/
+	font-size: 1.5rem;/*tamaño de fuente*/
+	color: #5B1504;/*color de fuente*/
 }
 header .fa {/*formato detallado icono menu*/
-	display: none;
-	color: #5B1504;
+	display: none; /*no mostrar*/
+	color: #5B1504;/*color de fuente*/
 }
 
 /*formato general del nav*/
 header nav .valdibeer { /*formato general del div valdibeer*/
-	display: inline-block;
+	display: inline-block; /*mostrar como bloque en línea*/
 }
 header nav .valdibeer h2 { /*formato detallado al Valdibeer*/
-	text-align: left;
-	padding-left: 2rem;
-	padding-top: 1.5rem;
-	color: #5B1504;
+	text-align: left; /*alienado de texto*/
+	padding-left: 2rem; /*relleno izquierda*/
+	padding-top: 1.5rem; /*relleno superior*/
+	color: #5B1504;/*color de fuente*/
 }
 header nav .menu { /*formato general del div menu*/
-	display: inline-block;
-	margin-left: 32%;
+	display: inline-block;/*mostrar como bloque en línea*/
+	margin-left: 32%; /*margen izquierda*/
 }
 header nav .col-4 h3 { /*formato detallado al menu de navegación*/
-	text-decoration: none;
-	display: inline-block;
-	padding: 1.5rem 0.5rem;
-	color: #5B1504;
+	text-decoration: none; /*sin decoración*/
+	display: inline-block;/*mostrar como bloque en línea*/
+	padding: 1.5rem 0.5rem; /*relleno*/
+	color: #5B1504;/*color de fuente*/
 }
 header nav .col-4 h3:hover { /*efecto sobre el menu de navegación*/
-	color: #DF8A02;	
+	color: #DF8A02;	/*color de fuente*/
 }
 
 /*formato general section contact*/
-.contact {
-	background-color: #000000;
-	padding-top: 1rem;
+.contact { /*formato detallado section contact*/
+	background-color: #000000; /*color de fondo*/
+	padding-top: 1rem; /*relleno superior*/
 }
-.contact h3 {
-	color: #DF8A02;
-	padding-left: 1rem;
+.contact h3 { /*formato general de los h3 de la section contact*/
+	color: #DF8A02; /*color de fuente*/
+	padding-left: 1rem;/*relleno izquierda*/
 	padding-bottom: 1rem;
 }
-.contact p{
-	color: #FFFFFF;
-	padding-left: 1rem;
+.contact p{/*formato general de los p de la section contact*/
+	color: #FFFFFF;/*color de fuente*/
+	padding-left: 1rem;/*relleno izquierda*/
 }
-.contact .rainy-forest {
+.contact .rainy-forest {/*formato detallado del botón*/
 	padding: 0.5rem;
 	background-color: #DF8A02;
-	margin: 1rem 0 1rem 1rem;
+	margin: 1rem 0 1rem 1rem; /*margen*/
 }
-.contact .direction h3 {
-	padding-left: 5rem;
+.contact .direction h3 { /*formato detallado del h3 de la subsection direction*/
+	padding-left: 5rem;/*relleno izquierda*/
 	padding-bottom: 1rem;
 }
-.contact .direction p {
-	padding-left: 5rem;
+.contact .direction p {/*formato detallado del p de la subsection direction*/
+	padding-left: 5rem;/*relleno izquierda*/
 }
 
 /*formato general beers*/
-.beers {
-	background-color: #FFFFFF;
+.beers { /*formato detallado de la section beers*/
+	background-color: #FFFFFF; /*color de fondo*/
 }
-.beers .row .col-3 {
-	height: 26rem;
+.beers .row .col-3 { /*formato general de las col-3*/
+	height: 26rem; /*alto*/
 }
-.beers .row .col-3 h4,p {
-	color: #5B1504;
-	padding: 0 1rem 1rem 0rem;
+.beers .row .col-3 h4,p { /*formato general de los h4 y p de los col-3*/
+	color: #5B1504; /*color de fuente*/
+	padding: 0 1rem 1rem 0rem; /*relleno*/
 }
-.beers button {
-	background-color: #DF8A02;
+.beers button { /*formato general de los botones*/
+	background-color: #DF8A02; /*color de fondo*/
 }
 /*formato general del footer*/
-footer {
-	background-color: #000000;
-	text-align: center;
-	padding: 2rem 1rem;
+footer { /*formato detallado del footer*/
+	background-color: #000000; /*color de fondo*/
+	text-align: center; /*alineamiento*/
+	padding: 2rem 1rem; /*relleno*/
 }
-footer h5,i {
-	color: #DF8A02;
+footer h5,i { /*formato detallado del h5 a i del footer*/
+	color: #DF8A02; /*color de fuente*/
 }
