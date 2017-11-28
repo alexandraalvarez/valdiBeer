@@ -41,30 +41,54 @@ header nav .col-4 .menu h3 {
 	padding: 1.5rem 0.5rem;
 	color: #FFFFFF;
 }
-header nav .col-4 .menu:hover {
+header nav .col-4 .menu h3:hover {
 	color: #000000;
 }
 
-
 /*formato general section contact*/
+.contact {
+	background-color: #000000;
+}
+.contact .we-do {
+	width: 65%;
+}
+.contact h3 {
+	color: #DF8A02;
+	padding-left: 1rem;
+}
+.contact p{
+	color: #FFFFFF;
+	padding-left: 1rem;
+}
+.contact .direction {
+	width: 35%;
+}
+.contact .rainy-forest {
+	padding: 0.5rem;
+	background-color: #DF8A02;
+	margin: 1rem 0 1rem 1rem;
+}
 
-/*formato general beers1*/
-
-/*formato general beers2*/
-
-/*formato general beers3*/
-
+/*formato general beers*/
+.beers {
+	background-color: #FFFFFF;
+}
+.beers .row .col-3 {
+	height: 26rem;
+}
+.beers .row .col-3 h4,p {
+	color: #5B1504;
+	padding: 0 1rem 1rem 0rem;
+}
+.beers button {
+	background-color: #DF8A02;
+}
 /*formato general del footer*/
-
-
-
-
-
-
-/*}
-.daily-kitten {/*formato detallado de la imagen*/
-/*	padding: 95% 2% 5% 2%; /*relleno*/
-/*}
-.empty { /*detalles de las columnas 4*/
-/*	padding: 95rem 2% 5% 2%; /*relleno*/
-/*}
+footer {
+	background-color: #000000;
+	text-align: center;
+	padding: 2rem 1rem;
+}
+footer h5,i {
+	color: #DF8A02;
+}
