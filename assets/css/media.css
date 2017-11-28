@@ -1,0 +1,39 @@
+
+
+@media (min-width: 800px) and (max-width: 1000px) { /*entre 200px y 534px se va a ver con lo que le diga abajo*/
+	[class*="col-"] { /*para llamar a cualquiera de las cols*/
+		width: 100% /*para que se reordenen al hacer el achicado de pantalla*/
+	}
+	.row {
+		background-image: url(../images/dawn.png); /*imagen de fondo*/
+		background-size: cover; /*para que cubra el fondo*/
+		background-repeat: no-repeat; /*para que no repita la imagen de fondo*/
+		height: 100vh; /*alto*/
+	}
+	.daily-kitten { /*formato detallado de la imagen*/
+		content: url(../images/kitten-large.png); /*contenido*/
+		padding: 40% 1% 1% 10%; /*relleno*/
+	}
+	.empty {/*formato detallado de las columnas 4*/
+		display: none;/*no mostrar*/
+	}
+}
+
+@media (min-width: 399px) and (max-width: 799px) { /*entre 200px y 534px se va a ver con lo que le diga abajo*/
+	[class*="col-"] { /*para llamar a cualquiera de las cols*/
+		width: 100% /*para que se reordenen al hacer el achicado de pantalla*/
+	}
+	.row {
+		background-image: url(../../assets/images/night.jpg);/*imagen de fondo*/
+		background-size: cover;/*para que cubra el fondo*/
+		background-repeat: no-repeat;/*para que no repita la imagen de fondo*/
+		height: 100vh; /*alto*/
+	}
+	.daily-kitten { /*formato detallado de la imagen*/
+		content: url(../images/kitten-small.png); /*contenido*/
+		padding: 45% 1% 1% 20%; /*relleno*/
+	}
+	.empty { /*formato detallado de las columnas 4*/
+	display: none;/*no mostrar*/
+	}
+}

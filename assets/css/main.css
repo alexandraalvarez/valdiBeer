@@ -1,0 +1,15 @@
+
+/*formato general del body*/
+.row {/*formato detallado del body*/
+	background-color: #FFFFFF; /*color de fondo*/
+	background-image: url(../images/sunny-day.jpg); /*imagen del fondo*/
+	background-size: cover; /*tamaño del fondo*/
+	background-repeat: no-repeat; /*no repetir*/
+	height: 100vh; /*alto*/
+}
+.daily-kitten {/*formato detallado de la imagen*/
+	padding: 95% 2% 5% 2%; /*relleno*/
+}
+.empty { /*detalles de las columnas 4*/
+	padding: 95rem 2% 5% 2%; /*relleno*/
+}
