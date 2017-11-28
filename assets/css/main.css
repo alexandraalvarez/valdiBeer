@@ -1,15 +1,70 @@
+/*rojizo chocolate #5B1504
+amarillo naranjoso #DF8A02
+negro #000000
+font-family: 'Poppins', sans-serif;*/
 
 /*formato general del body*/
-.row {/*formato detallado del body*/
-	background-color: #FFFFFF; /*color de fondo*/
-	background-image: url(../images/sunny-day.jpg); /*imagen del fondo*/
-	background-size: cover; /*tamaño del fondo*/
-	background-repeat: no-repeat; /*no repetir*/
-	height: 100vh; /*alto*/
+* {
+	font-family: 'Poppins', sans-serif;/*fuente*/
+	color: #FFFFFF;/*color de la fuente*/
 }
+
+/*formato general del header*/
+header {
+	background-image: url(../images/header.jpg); /*imagen del fondo*/
+	background-size: cover;/*tamaño del fondo*/
+	background-repeat: no-repeat;/*no repetir*/
+	text-align: center;
+	height: 25rem;
+}
+header .col-12 h1 {
+	font-size: 4rem;
+	padding-bottom: 2rem;
+	padding-top: 0;
+}
+header .col-12 h3 {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1.5rem;
+	color: #000000;
+}
+
+/*formato general del nav*/
+header nav .col-4 h2 {
+	text-align: left;
+	padding-left: 2rem;
+	padding-top: 1.5rem;
+}
+header nav .col-4 .menu h3 {
+	text-decoration: none;
+	display: inline-block;
+	padding: 1.5rem 0.5rem;
+	color: #FFFFFF;
+}
+header nav .col-4 .menu:hover {
+	color: #000000;
+}
+
+
+/*formato general section contact*/
+
+/*formato general beers1*/
+
+/*formato general beers2*/
+
+/*formato general beers3*/
+
+/*formato general del footer*/
+
+
+
+
+
+
+/*}
 .daily-kitten {/*formato detallado de la imagen*/
-	padding: 95% 2% 5% 2%; /*relleno*/
-}
+/*	padding: 95% 2% 5% 2%; /*relleno*/
+/*}
 .empty { /*detalles de las columnas 4*/
-	padding: 95rem 2% 5% 2%; /*relleno*/
-}
+/*	padding: 95rem 2% 5% 2%; /*relleno*/
+/*}
