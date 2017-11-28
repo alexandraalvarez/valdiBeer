@@ -1,39 +1,33 @@
 
 
-@media (min-width: 800px) and (max-width: 1000px) { /*entre 200px y 534px se va a ver con lo que le diga abajo*/
+@media (min-width: 100px) and (max-width: 1100px) { /*entre 100px y 1000px se va a ver con lo que le diga abajo*/
 	[class*="col-"] { /*para llamar a cualquiera de las cols*/
 		width: 100% /*para que se reordenen al hacer el achicado de pantalla*/
 	}
-	.row {
-		background-image: url(../images/dawn.png); /*imagen de fondo*/
-		background-size: cover; /*para que cubra el fondo*/
-		background-repeat: no-repeat; /*para que no repita la imagen de fondo*/
-		height: 100vh; /*alto*/
+	body .empty { /*para que desaparezcan los col- vacíos*/
+		display: none;
 	}
-	.daily-kitten { /*formato detallado de la imagen*/
-		content: url(../images/kitten-large.png); /*contenido*/
-		padding: 40% 1% 1% 10%; /*relleno*/
+	/*fomato general del header nav*/
+	header nav .col-4 h2 { /*formato detallado del h2 valdibeer*/
+		display: inline-block;
+	} 
+	header nav .fa { /*para que aparezca el ícono menú*/
+		display: inline-block;
+		margin-left: 75%;
+	} 
+	header nav .fa:hover { /*efecto sobre el ícono menú*/
+		color: #DF8A02;
 	}
-	.empty {/*formato detallado de las columnas 4*/
-		display: none;/*no mostrar*/
+	header nav .menu { /*para que desaparezca el menú*/
+		display: none;
 	}
-}
+	/*formato general de section contact*/
+	.contact .direction h3 { /*para corregir el relleno del h3 del div direction*/
+		padding-left: 1rem;
+		padding-bottom: 1rem;
+	}
+	.contact .direction p {/*para corregir el relleno del p del div direction*/
+		padding-left: 1rem;
+	}
+}	
 
-@media (min-width: 399px) and (max-width: 799px) { /*entre 200px y 534px se va a ver con lo que le diga abajo*/
-	[class*="col-"] { /*para llamar a cualquiera de las cols*/
-		width: 100% /*para que se reordenen al hacer el achicado de pantalla*/
-	}
-	.row {
-		background-image: url(../../assets/images/night.jpg);/*imagen de fondo*/
-		background-size: cover;/*para que cubra el fondo*/
-		background-repeat: no-repeat;/*para que no repita la imagen de fondo*/
-		height: 100vh; /*alto*/
-	}
-	.daily-kitten { /*formato detallado de la imagen*/
-		content: url(../images/kitten-small.png); /*contenido*/
-		padding: 45% 1% 1% 20%; /*relleno*/
-	}
-	.empty { /*formato detallado de las columnas 4*/
-	display: none;/*no mostrar*/
-	}
-}

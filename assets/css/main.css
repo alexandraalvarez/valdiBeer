@@ -10,63 +10,80 @@ font-family: 'Poppins', sans-serif;*/
 }
 
 /*formato general del header*/
-header {
+header { /*formato detallado al header*/
 	background-image: url(../images/header.jpg); /*imagen del fondo*/
 	background-size: cover;/*tamaño del fondo*/
 	background-repeat: no-repeat;/*no repetir*/
-	text-align: center;
-	height: 25rem;
+	background-position: center; /*para que la imagen se centre*/
+	text-align: center; /*alineamiento*/
+	height: 25rem; /*alto*/
 }
-header .col-12 h1 {
+header .col-12 h1 { /*formato detallado al título h1*/
 	font-size: 4rem;
 	padding-bottom: 2rem;
 	padding-top: 0;
+	color: #DF8A02;
 }
-header .col-12 h3 {
+header .col-12 h3 {/*formato detallado al título h3*/
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	font-size: 1.5rem;
-	color: #000000;
+	color: #5B1504;
+}
+header .fa {/*formato detallado icono menu*/
+	display: none;
+	color: #5B1504;
 }
 
 /*formato general del nav*/
-header nav .col-4 h2 {
+header nav .valdibeer { /*formato general del div valdibeer*/
+	display: inline-block;
+}
+header nav .valdibeer h2 { /*formato detallado al Valdibeer*/
 	text-align: left;
 	padding-left: 2rem;
 	padding-top: 1.5rem;
+	color: #5B1504;
 }
-header nav .col-4 .menu h3 {
+header nav .menu { /*formato general del div menu*/
+	display: inline-block;
+	margin-left: 32%;
+}
+header nav .col-4 h3 { /*formato detallado al menu de navegación*/
 	text-decoration: none;
 	display: inline-block;
 	padding: 1.5rem 0.5rem;
-	color: #FFFFFF;
+	color: #5B1504;
 }
-header nav .col-4 .menu h3:hover {
-	color: #000000;
+header nav .col-4 h3:hover { /*efecto sobre el menu de navegación*/
+	color: #DF8A02;	
 }
 
 /*formato general section contact*/
 .contact {
 	background-color: #000000;
-}
-.contact .we-do {
-	width: 65%;
+	padding-top: 1rem;
 }
 .contact h3 {
 	color: #DF8A02;
 	padding-left: 1rem;
+	padding-bottom: 1rem;
 }
 .contact p{
 	color: #FFFFFF;
 	padding-left: 1rem;
 }
-.contact .direction {
-	width: 35%;
-}
 .contact .rainy-forest {
 	padding: 0.5rem;
 	background-color: #DF8A02;
 	margin: 1rem 0 1rem 1rem;
+}
+.contact .direction h3 {
+	padding-left: 5rem;
+	padding-bottom: 1rem;
+}
+.contact .direction p {
+	padding-left: 5rem;
 }
 
 /*formato general beers*/
